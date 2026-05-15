@@ -1,6 +1,7 @@
 <idea-plugin>
     <dependencies>
         <module name="mincssrel.shared" />
+        <module name="intellij.css" />
     </dependencies>
 
     <actions>
