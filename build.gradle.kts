@@ -12,6 +12,7 @@ dependencies {
         testFramework(TestFrameworkType.Platform)
     }
     implementation(project(":shared"))
+    implementation(project(":css"))
 }
 
 subprojects {
