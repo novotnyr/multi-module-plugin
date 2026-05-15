@@ -8,5 +8,6 @@
     ]]></description>
     <content>
         <module name="mincssrel.shared" loading="required" />
+        <module name="mincssrel.css" loading="optional" />
     </content>
 </idea-plugin>
