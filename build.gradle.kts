@@ -11,6 +11,7 @@ dependencies {
         intellijIdea("2025.3")
         testFramework(TestFrameworkType.Platform)
     }
+    implementation(project(":shared"))
 }
 
 subprojects {
