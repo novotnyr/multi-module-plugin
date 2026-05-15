@@ -1,3 +1,4 @@
+import org.jetbrains.intellij.platform.gradle.IntelliJPlatformType.IntellijIdea
 import org.jetbrains.intellij.platform.gradle.TestFrameworkType
 
 plugins {
@@ -18,4 +19,9 @@ dependencies {
 subprojects {
     apply(plugin = "org.jetbrains.kotlin.jvm")
     apply(plugin = "org.jetbrains.intellij.platform.module")
+}
+
+val runIde261 by intellijPlatformTesting.runIde.registering {
+    type = IntellijIdea
+    version = "2026.1"
 }
