@@ -1,1 +1,5 @@
-<idea-plugin />
+<idea-plugin>
+    <dependencies>
+        <module name="mincssrel.shared" />
+    </dependencies>
+</idea-plugin>
