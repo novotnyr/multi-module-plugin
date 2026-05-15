@@ -12,3 +12,8 @@ dependencies {
         testFramework(TestFrameworkType.Platform)
     }
 }
+
+subprojects {
+    apply(plugin = "org.jetbrains.kotlin.jvm")
+    apply(plugin = "org.jetbrains.intellij.platform.module")
+}
