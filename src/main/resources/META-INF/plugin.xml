@@ -6,4 +6,7 @@
         Showcase of a multi-module plugin with two modules.
         One of them is optionally depending on the CSS plugin.
     ]]></description>
+    <content>
+        <module name="mincssrel.shared" loading="required" />
+    </content>
 </idea-plugin>
