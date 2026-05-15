@@ -1,10 +1,10 @@
 <idea-plugin>
-    <id>org.jetbrains.plugins.template</id>
-    <name>IntelliJ Platform Plugin Template</name>
-    <vendor>JetBrains</vendor>
+    <id>com.github.novotnyr.mincssrel</id>
+    <name>MinCSSrel</name>
+    <vendor>Róbert Novotný</vendor>
     <description><![CDATA[
-        <p><b>IntelliJ Platform Plugin Template</b> is a repository that provides a pure template to make it easier to create a new plugin project.</p>
-        <p>The main goal of this template is to speed up the setup phase of plugin development for both new and experienced developers by preconfiguring the project scaffold and CI, linking to the proper documentation pages, and keeping everything organized.</p>
+        Showcase of a multi-module plugin with two modules.
+        One of them is optionally depending on the CSS plugin.
     ]]></description>
 
     <depends>com.intellij.modules.platform</depends>
