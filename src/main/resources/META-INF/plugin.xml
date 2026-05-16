@@ -6,6 +6,4 @@
         Showcase of a multi-module plugin with two modules.
         One of them is optionally depending on the CSS plugin.
     ]]></description>
-
-    <depends>com.intellij.modules.platform</depends>
 </idea-plugin>
